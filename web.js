@@ -2,13 +2,14 @@
 
 "use strict";
 var express = require("express"),
-	fs = require("fs");
-
-var app = express.createServer(express.logger());
+	fs = require("fs"),
+	path = require("path"),
+	app = express.createServer(express.logger());
+app.use("/", path);
+app.use(express.static(path.join(__dirname, "content")));
 
 app.get("/", function (request, response) {
-	var fileData =fs.readFileSync("./index.html","utf8");
-	response.send(fileData);
+	response.sendfile(__dirname + "/index.html");
 });
 
 var port = process.env.PORT || 5000;

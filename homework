@@ -1,1 +1,18 @@
-https://github.com/zztop/bitstarter/blob/8f99c85c916265a8881bcac486994cd3fc8027e7/index.html
+{
+    ".about": false,
+    ".blank": false,
+    ".faq": false,
+    ".footer": false,
+    ".heading": false,
+    ".logo": false,
+    ".navigation": false,
+    ".order": false,
+    ".pitch": false,
+    ".section1": false,
+    ".section2": false,
+    ".social": false,
+    ".subheading": false,
+    ".thermometer": false,
+    ".video": false,
+    "h1": true
+}
