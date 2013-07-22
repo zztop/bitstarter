@@ -1,0 +1,65 @@
+  /* Large desktop */
+  @media (min-width: 980px) {
+      .linediv-l {
+          border-right: 1px white solid;
+      }
+      .linediv-r {
+          border-left: 1px white solid;
+      }
+  }
+  /* Landscape phones and down */
+  @media (max-width: 480px) {
+      .copy {
+          padding: 2.5% 10%;
+      }
+      .linediv-l {
+          border-bottom: 1px white solid;
+      }
+      .linediv-r {
+          border-top: 1px white solid;
+      }
+  }
+  /* All form factors */
+  /* Main body and headings */
+  body {
+      font-family:'Open Sans', Helvetica, Arial, sans-serif;
+  }
+  .header-container{
+    background: none repeat scroll 0 0 #F16529;
+  }
+  .heading, .subheading {
+      font-family:'Ubuntu', Helvetica, Arial, sans-serif;
+      text-align: center;
+      color:white;
+      
+  }
+  p.lead {
+      padding-top: 1.5%;
+      font-size: 24px;
+      line-height: 30px;
+  }
+  p {
+      font-size: 18px;
+      line-height: 24px;
+  }
+
+  .question-row p{
+    margin-bottom: 0;
+    padding-top:1%;
+  }
+
+  /* Marketing Copy and Footer */
+  .footer {
+      /*color: #cccccc;*/
+    background-color: #F5F5F5;
+    border-top: 1px solid #E5E5E5;
+    margin-top: 70px;
+    padding: 30px 0;
+    text-align: center;
+  }
+  .footer p {
+      font-size: 1.1em;
+      color: #777777;
+      margin-bottom: 0;
+  }
+  
